@@ -1,0 +1,31 @@
+{
+  "name": "ring-mqtt",
+  "version": "4.3.2",
+  "description": "Ring to MQTT Bridge",
+  "main": "ring-mqtt.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "is-online": "^9.0.0",
+    "mqtt": "^4.2.6",
+    "ring-client-api": "^9.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ring-mqtt.js"
+  },
+  "keywords": [
+    "ring",
+    "mqtt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tsightler/ring-mqtt.git"
+  },
+  "author": "Tom Sightler (tsightler@gmail.com)",
+  "license": "MIT"
+}
